@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/question__1_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton11"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+        tools:srcCompat="@drawable/question__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/question__1_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton10"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton8"
+        tools:srcCompat="@drawable/question__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/question__1_"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton8"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        tools:srcCompat="@drawable/question__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/question__1_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+        tools:srcCompat="@drawable/question__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/question__1_"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton11"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton7"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        tools:srcCompat="@drawable/question__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/question__1_"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton10"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        tools:srcCompat="@drawable/question__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/question__1_"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        tools:srcCompat="@drawable/question__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/question__1_"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton7"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        tools:srcCompat="@drawable/question__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/question__1_"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton8"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        tools:srcCompat="@drawable/question__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/question__1_"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton18"
+        tools:srcCompat="@drawable/question__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="67dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/question__1_"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton17"
+        tools:srcCompat="@drawable/question__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/question__1_"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:srcCompat="@drawable/question__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/undo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/undo" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/socks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/socks" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/aladin"
+        android:text="0"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/aladin"
+        android:text="Puntaje:"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:fontFamily="@font/aladin"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
